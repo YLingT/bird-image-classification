@@ -38,11 +38,11 @@ bird-image-classification
 ### 1.  Training
 Parameter setting:
 ```
-epoch             20
-batch size        4
-learning rate     0.0001
-optimizer         Adam
-lr scheduler      ReduceLROnPlateau
+epoch              20
+batch size         4
+learning rate      0.0001
+optimizer          Adam
+lr scheduler       ReduceLROnPlateau
 ```
 Run code:
 ```
