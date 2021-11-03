@@ -44,6 +44,7 @@ bird-image-classification
   |── train.py
   |── test.py
 ```
+
 ### 1.  Training
 Parameter setting:
 ```
@@ -59,11 +60,13 @@ Run code:
 python train.py
 ```
 Trained model will save in **save_model** directory.
+
 ### 2.  Testing and generate answer.txt file
 ```
 python test.py
 ```
 The answer.txt will save in **test_model** directory.
+
 ### 3.  Pre-trained models
 Download trained model:  [link](https://drive.google.com/file/d/1pR8LjDpP9aigj5fw9rSioQ8-Pk3vu5D3/view?usp=sharing)  
 Train Efficientnet-b6 model for 20 epoch, and the testing predict accuracy achieve 0.80547.    
