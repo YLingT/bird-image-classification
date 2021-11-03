@@ -5,6 +5,12 @@ This is the code for bird image classification on pytorch.
 ## Enviroment setting and dependencies 
 Use pip install or conda install :
 ```
+conda create --name test python=3.7.11
+pip install torch==1.7.0+cu110 torchvision==0.8.1+cu110 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install efficientnet_pytorch==0.6.3
+```
+And check the version :
+```
 #Name                        Version
 python                       3.7.11
 torch                        1.7.0+cu110
