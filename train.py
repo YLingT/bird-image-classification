@@ -176,7 +176,7 @@ model_ft = train_model(model=model, criterion=criterion, optimizer=optimizer,
                        scheduler=exp_lr_scheduler, device=device,
                        train_dataloader=train_loader,
                        dataset_sizes=dataset_sizes,
-                       num_epochs=2, working_dir=working_dir)
+                       num_epochs=20, working_dir=working_dir)
 
 
 def unpickle(fname):
