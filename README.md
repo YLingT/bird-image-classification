@@ -58,17 +58,17 @@ Run code:
 ```
 python train.py
 ```
-Trained model will save in save_model directory.
+Trained model will save in **save_model** directory.
 ### 2.  Testing and generate answer.txt file
 ```
 python test.py
 ```
-The answer.txt will save in test_model directory.
+The answer.txt will save in **test_model** directory.
 ### 3.  Pre-trained models
-Use the Efficientnet-b6 model training for 20 epoch, and the testing predict accuracy achieve 0.80547.  
+Download trained model:  https://drive.google.com/file/d/1pR8LjDpP9aigj5fw9rSioQ8-Pk3vu5D3/view?usp=sharing  
+Train Efficientnet-b6 model for 20 epoch, and the testing predict accuracy achieve 0.80547.    
 Training accuracy finally achieve 0.9963, and the final training loss is 0.0357.  
-
-Download trained model:   
-Put the EfficientNet_full.pth in save_model directory and run test.py code.
+ 
+Put the **EfficientNetb6_full.pth** in **save_model** directory and run test.py code.
 
 <img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_accuracy.png"><img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_loss.png">
