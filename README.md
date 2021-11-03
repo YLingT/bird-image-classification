@@ -54,6 +54,7 @@ Trained model will save in save_model file.
 ```
 python test.py
 ```
+The answer.txt will save in test_model file and compress to submission.zip.
 ### 3.  Pre-trained models
 Use the Efficientnet-b6 model training for 20 epoch, and the testing predict accuracy achieve 0.80547.  
 Training accuracy finally achieve 0.9963, and the final training loss is 0.0357.
