@@ -15,8 +15,8 @@ And check the version :
 ```
 #Name                        Version
 python                       3.7.11
-torch                        1.7.0+cu110
-torchvision                  0.8.1+cu110
+torch                        1.7.0
+torchvision                  0.8.1
 pandas                       1.1.3
 pillow                       8.4.0
 matplotlib                   3.4.3
@@ -67,6 +67,7 @@ The answer.txt will save in test_model file and compress to submission.zip.
 ### 3.  Pre-trained models
 Use the Efficientnet-b6 model training for 20 epoch, and the testing predict accuracy achieve 0.80547.  
 Training accuracy finally achieve 0.9963, and the final training loss is 0.0357.  
+
 Download trained model: 
 
 <img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_accuracy.png"><img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_loss.png">
