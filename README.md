@@ -41,6 +41,7 @@ Parameter setting:
 epoch              20
 batch size         4
 learning rate      0.0001
+criterion          cross entropy
 optimizer          Adam
 lr scheduler       ReduceLROnPlateau
 ```
