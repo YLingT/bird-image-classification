@@ -69,4 +69,5 @@ Use the Efficientnet-b6 model training for 20 epoch, and the testing predict acc
 Training accuracy finally achieve 0.9963, and the final training loss is 0.0357.
 Download trained model: 
 
-<img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_figure.png">
+<img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_accuracy.png">
+<img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_loss.png">
