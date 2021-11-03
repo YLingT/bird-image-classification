@@ -67,7 +67,7 @@ python test.py
 ```
 The answer.txt will save in **test_model** directory.
 
-### 3.  Pre-trained models
+### 3.  Pre-trained model
 Download trained model:  [link](https://drive.google.com/file/d/1pR8LjDpP9aigj5fw9rSioQ8-Pk3vu5D3/view?usp=sharing)  
 Train Efficientnet-b6 model for 20 epoch, and the testing predict accuracy achieve 0.80547.    
  
