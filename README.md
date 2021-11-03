@@ -68,6 +68,7 @@ The answer.txt will save in test_model file and compress to submission.zip.
 Use the Efficientnet-b6 model training for 20 epoch, and the testing predict accuracy achieve 0.80547.  
 Training accuracy finally achieve 0.9963, and the final training loss is 0.0357.  
 
-Download trained model: 
+Download trained model:   
+Put the EfficientNet_full.pth in save_model file and run test.py code.
 
 <img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_accuracy.png"><img height=300 src="https://github.com/YLingT/bird-image-classification/blob/main/training_loss.png">
