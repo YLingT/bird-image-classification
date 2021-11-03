@@ -50,7 +50,7 @@ Run code:
 python train.py
 ```
 Trained model will save in save_model file.
-### 2.  Testing and generate submission .txt file
+### 2.  Testing and generate answer.txt file
 ```
 python test.py
 ```
